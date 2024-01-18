@@ -69,7 +69,7 @@ const lowerSearch = searchTerm.toLocaleLowerCase()
 
       <Input value={searchTerm} setSearchTerm={setSearchTerm} swapFilterCountries={handleFilter} filter={region} regions={regions}/>
 
-      <div className="grid justify-between grid-cols-[repeat(auto-fit,minmax(14rem,1fr))] items-center gap-y-10 gap-x-10">
+      <div className="grid justify-around grid-cols-[repeat(auto-fit,minmax(14rem,17rem))] items-center gap-y-10 gap-x-10">
         {loading && <p>Loading...</p>}
 
         
